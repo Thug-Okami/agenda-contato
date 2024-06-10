@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'lato', sans-serif;
+    background-color: #d4b5b5;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.container{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.containerLastName{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.comboBox{
+    width: 17%;
+}
+.btnSalvarCancelar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.btnCancelar,
+.btnSalvar{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btnCancelar{
+    margin-right: 1rem;
+    background-color: #ff4500;
+    color: white;
+}
+.btnSalvar{
+    background-color: #7289da;
+    color: white;
+}
+#pesquisa{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 0.5rem;
+}
+.lista{
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f8cdcd;
+}
+.agenda{
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f8cdcd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.imagem{
+    text-align: center;
+    cursor: pointer;
+}
+.contato{
+    flex: 1;
+}
+
+.btnEditar,
+.btnExcluir{
+    width: 30%!important;
+    height: 25px!important;
+    cursor: pointer;
+}
+.btnExcluir{
+    background: #ff4500;
+    color: white;
+}
+.btnEditar{
+    background: #ffdab9;
+    color: white;
+}
+table{
+    width: 100%;
+}
+th,
+td{
+    border-bottom: 1px solid #b6b6b6;
+    padding: 8px 0;
+    text-align: center;
+}
+tr:first-child{
+    background-color: #7289da;
+    color: whitesmoke;
+    text-align: center;
+}
+tr td:last-child,
+tr td:nth-last-child(2){
+    text-align: center;
+}
